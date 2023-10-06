@@ -10,5 +10,5 @@ resource "aws_vpc" "vpc-devopsassessment" {
 }
 
 output "vpc_id" {
-  value = aws_vpc.devopsassessment.id
+  value = aws_vpc.vpc-devopsassessment.id
 }
