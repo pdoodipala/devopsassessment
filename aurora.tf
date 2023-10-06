@@ -9,7 +9,7 @@ resource "aws_db_instance" "aurora" {
   engine               = "aurora"
   engine_version       = "5.7.mysql_aurora.2.08.2"
   instance_class       = "db.r5.large"
-  name                 = "aurora-db"
+  name                 = "dbname"
   username             = "dbuser"
   password             = "strapi-password"
   parameter_group_name = "default.aurora-mysql5.7"
